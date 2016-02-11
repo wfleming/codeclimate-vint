@@ -70,7 +70,7 @@ class Issue:
             "type": "issue",
             "check_name": self.violation["name"],
             "description": self.violation["description"],
-            "content": self.violation["reference"],
+            "content": {"body": self.violation["reference"]},
             "categories": [self._category()],
             "location": self._location(),
             "remediation_points": self.BASE_POINTS,
