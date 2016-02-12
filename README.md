@@ -1,4 +1,6 @@
-# Code Climate Engine to run vint
+# Code Climate Engine to run Vint
+
+[![Code Climate](https://codeclimate.com/github/wfleming/codeclimate-vint/badges/gpa.svg)](https://codeclimate.com/github/wfleming/codeclimate-vint)
 
 A [Code Climate CLI][cli] [engine][spec] running the [Vint][vint] Vim Script linter.
 
